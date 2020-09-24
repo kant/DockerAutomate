@@ -1,0 +1,21 @@
+<h1>This is the Main Page of Docker to Launch or Stop the OS</h1>
+<style>
+body {
+  background-image: url('https://cdn.slidesharecdn.com/ss_thumbnails/launchitwithdocker-170406062711-thumbnail-4.jpg?cb=1491460187');
+  background-size:cover;
+  background-repeat:no-repeat;	  
+}
+</style>
+<form action="http://192.168.43.107/cgi-bin/drun1.py">
+Enter a OSName: <input type='text' name='x'> </br>
+Slect an image for OS
+<select name='y'>
+	<option>httpd</option>
+	<option>vimal13/apache-webserver</option>
+	<option>ubuntu</option>
+</select>
+</br>
+<a href="http://192.168.43.107/stop.html">ToStop OS</a>
+</br>
+<input type='submit'>
+</form>
